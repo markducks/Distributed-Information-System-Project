@@ -1,0 +1,4 @@
+-o
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Primitive_SocketClient/build/exe/main/debug/Primitive_SocketClient
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Primitive_SocketClient/build/obj/main/debug/c4ipudkh7s9n2lfc21lino97t/client_main.o
+-m64

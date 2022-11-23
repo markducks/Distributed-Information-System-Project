@@ -1,0 +1,4 @@
+See file:///home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Primitive_SocketServer/build/tmp/compileDebugCpp/output.txt for all output for compileDebugCpp.
+compiling main.cpp successful.
+
+Finished compileDebugCpp, see full log file:///home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Primitive_SocketServer/build/tmp/compileDebugCpp/output.txt.

@@ -1,0 +1,4 @@
+See file:///home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/cpp/HelloWorld/build/tmp/linkDebug/output.txt for all output for linkDebug.
+linking HelloWorld successful.
+
+Finished linkDebug, see full log file:///home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/cpp/HelloWorld/build/tmp/linkDebug/output.txt.

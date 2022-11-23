@@ -1,0 +1,4 @@
+-o
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/build/exe/main/debug/Hello
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/build/obj/main/debug/5v08dtn7cszvzrlgdayn1y9u6/main.o
+-m64

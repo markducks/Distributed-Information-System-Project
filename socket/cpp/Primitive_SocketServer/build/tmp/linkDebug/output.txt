@@ -1,0 +1,4 @@
+See file:///home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Primitive_SocketServer/build/tmp/linkDebug/output.txt for all output for linkDebug.
+linking Primitive_SocketServer successful.
+
+Finished linkDebug, see full log file:///home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Primitive_SocketServer/build/tmp/linkDebug/output.txt.

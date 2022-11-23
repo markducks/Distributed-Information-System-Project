@@ -1,0 +1,59 @@
+See file:///home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/build/tmp/compileDebugCpp/output.txt for all output for compileDebugCpp.
+compiling main.cpp failed.
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp: In function ‘int main(int, char**)’:
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:20:9: error: expected ‘,’ or ‘;’ before ‘if’
+   20 |         if(socket_server<0){
+      |         ^~
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:27:40: error: invalid conversion from ‘char*’ to ‘uint16_t’ {aka ‘short unsigned int’} [-fpermissive]
+   27 |     serverAddr.sin_port = htons(_argv[1]);
+      |                                 ~~~~~~~^
+      |                                        |
+      |                                        char*
+In file included from /home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:4:
+/usr/include/netinet/in.h:387:33: note:   initializing argument 1 of ‘uint16_t htons(uint16_t)’
+  387 | extern uint16_t htons (uint16_t __hostshort)
+      |                        ~~~~~~~~~^~~~~~~~~~~
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:32:22: error: cannot convert ‘sockaddr_in’ to ‘int’
+   32 |     int rBind = bind(serverAddr, &serverAddr, sizeof(serverAddr));
+      |                      ^~~~~~~~~~
+      |                      |
+      |                      sockaddr_in
+In file included from /home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:3:
+/usr/include/x86_64-linux-gnu/sys/socket.h:112:22: note:   initializing argument 1 of ‘int bind(int, const sockaddr*, socklen_t)’
+  112 | extern int bind (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len)
+      |                  ~~~~^~~~
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:38:41: error: ‘BACKLOG’ was not declared in this scope
+   38 |     int rListen = listen(socket_server, BACKLOG);
+      |                                         ^~~~~~~
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:41:77: error: expected ‘;’ before ‘}’ token
+   41 |         cerr << "Error while bringing the server in listening mode << endl;"
+      |                                                                             ^
+      |                                                                             ;
+   42 |     }
+      |     ~                                                                        
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:46:40: error: cannot convert ‘sockaddr_in*’ to ‘sockaddr*’
+   46 |     int rAccpt = accept(socket_server, &clientAddr, sizeof(clientAddr));
+      |                                        ^~~~~~~~~~~
+      |                                        |
+      |                                        sockaddr_in*
+In file included from /home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:3:
+/usr/include/x86_64-linux-gnu/sys/socket.h:306:45: note:   initializing argument 2 of ‘int accept(int, sockaddr*, socklen_t*)’
+  306 | extern int accept (int __fd, __SOCKADDR_ARG __addr,
+      |                                             ^
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:53:5: error: expected initializer before ‘inet_ntop’
+   53 |     inet_ntop(AF_INET, &clientAddr.sin_addr.s_addr, ipBuffer, INET_ADDRSTRLEN);
+      |     ^~~~~~~~~
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:54:35: error: ‘ipBuffer’ was not declared in this scope
+   54 |     cout << "Client address: " << ipBuffer << " port: " << ntohs(clientAddr.sin_port) << endl;
+      |                                   ^~~~~~~~
+/home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:60:22: error: cannot convert ‘sockaddr_in’ to ‘int’
+   60 |     int rRecv = recv(clientAddr, &msg, sizeof(msg),0);
+      |                      ^~~~~~~~~~
+      |                      |
+      |                      sockaddr_in
+In file included from /home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/src/main/cpp/main.cpp:3:
+/usr/include/x86_64-linux-gnu/sys/socket.h:145:26: note:   initializing argument 1 of ‘ssize_t recv(int, void*, size_t, int)’
+  145 | extern ssize_t recv (int __fd, void *__buf, size_t __n, int __flags);
+      |                      ~~~~^~~~
+
+Finished compileDebugCpp, see full log file:///home/marco/Desktop/University/Distributed_Information_System/ProgettoDiTest/VIS-Testbed/socket/cpp/Hello/build/tmp/compileDebugCpp/output.txt.
